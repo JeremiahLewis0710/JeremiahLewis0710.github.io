@@ -1,0 +1,63 @@
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.row{
+    position:relative;
+}
+
+.option1{
+    height: 400px;
+    background-color:gray;
+    margin-left:80px;
+    margin-right:30px;
+    position:relative;
+}
+.option2{
+    height: 400px;
+    background-color:gray;
+    margin-right:30px;
+    position:relative;
+}
+.option3{
+    height: 400px;
+    background-color:gray;
+    margin-right:30px;
+    position:relative;
+}
+
+.forOption1{
+    position:relative;
+    margin-top:15px;
+    
+}
+.forOption2{
+    position:relative;
+    margin-top:15px;
+    
+}
+.forOption3{
+    position:relative;
+    margin-top:15px;
+   
+}
+
+.check{
+    position:absolute;
+    bottom:-70px;
+    left:45%;
+}
+
+.reset{
+    position:absolute;
+    bottom:-120px;
+    left:43%;
+}
+
+
+

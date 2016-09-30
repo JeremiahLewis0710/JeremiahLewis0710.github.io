@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Guess Again?!</title>
+    <!-- Official Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="guessingGame.css">
+    <!--<script type="text/javascript">var switchTo5x=true;</script>
+  <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+  <script type="text/javascript">stLight.options({publisher: "8d5e89c4-7522-453f-b2c8-dc0299da8e05", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>-->
+</head>
+
+<body>
+    <h2>Guess Again</h2>
+    <h3> Rules</h3>
+    <p>Welcome to Guess Again. The rules of the game are simple. Below there are three cards that have three different random numbers assigned to them. Two of the same number will never appear. For example you may have the sequence 1 , 2 , 3 but never 1 , 2 , 2.</p>
+    <ul>
+        <li>ONLY USE NUMBERS 0-9</li>
+        <li style="color:red">If you assign a number that is not in the sequence the card will turn red</li>
+        <li style="color:yellow">If you assign a number that is in the sequence but not assigned to that specific card, then the card will turn yellow.</li>
+        <li style ="color:green">If you assign the correct number to the correct card then that card will turn green.</li>
+    </ul>
+    <div class="container">
+        <div class="row">
+            <div class = "turns">
+            </div>
+            <div class="col-sm-3 option1">
+                <center>
+                 <form>
+                     <label for="forOption1">Guess #1:   
+                <input type="number" class ="forOption1" min = "0" max = "9" max.value.length="2">
+                 </form>
+                </center>
+            </div>
+            <div class ="col-sm-3 option2">
+                <center>
+                    <form>
+                        <label for="forOption2">Guess #2:
+               <input type="number" class ="forOption2" min = "0" max = "9">
+                    </form>
+                </center>
+            </div>
+            <div class = "col-sm-3 option3">
+                <center>
+                    <form>
+                        <label for="forOption3">Guess #3:
+                <input type="number" class ="forOption3" min = "0" max = "9">
+                </form>
+                </center>
+            </div>
+        </div>
+       <div class ="row">
+          <button class = "btn btn-default check">CHECK</button>
+          <button class ="btn btn-primary reset" style="visibility:hidden">PLAY AGAIN</button>
+       </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Official JQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js "></script>
+    <!-- Official Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js " integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa "
+        crossorigin="anonymous "></script>
+    <!-- My project JS -->
+    <script src="guessingGame.js "></script>
+</body>
+
+
+
+
+
+
+</html>
